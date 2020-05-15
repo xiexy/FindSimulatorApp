@@ -90,6 +90,7 @@ static NSString * const reUserId = @"SimAppCellView";
 
 - (void)findApp{
     NSTask *task = [[NSTask alloc] init];
+    [task setEnvironment:@{@"LC_ALL" : @"en_US.UTF-8"}];
     task.launchPath = @"/bin/sh";
     task.arguments = @[@"-c", @"ps -ax | grep CoreSimulator/Devices"];
     NSPipe *outputPipe = [NSPipe pipe];
