@@ -4,5 +4,4 @@
 + 和 SimPholders 对比
 ![运行图](https://github.com/xiexy/FindSimulatorApp/blob/master/images/2.png)
 ![运行图](https://github.com/xiexy/FindSimulatorApp/blob/master/images/3.png)
-
- [下载地址](https://github.com/xiexy/FindSimulatorApp/blob/master/FindSimulatorApp.zip?raw=true)
+ 
